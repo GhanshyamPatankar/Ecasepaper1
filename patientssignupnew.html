@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Case Paper</title>
+</head>
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+  <form action="patientssignup.php" method="POST">
+  <link rel="stylesheet" href="style.css">
+  <script src="patientssignupnew.js"></script>
+  <body align="center">
+
+ <div>
+
+
+      <div class="container">
+        <h1 align="center">E-Case Paper</h1>
+        <h4 align="center">Patients's Signup</h4>
+          
+            <p class="mb-4"></p>
+            <form action="#" method="post">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <p><input type="file" name="photo" accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+                    <p><label for="file" style="cursor: pointer;">Upload Image</label></p>
+                    <p><img id="output" width="200" /></p>
+
+                  </div>    
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="name" class="form-control" placeholder="e.g. John" id="name">
+                  </div>    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="lname">Gender: </label>
+                    <input name="gender" type="radio" value="male" required /> Male
+                    <input name="gender" type="radio" value="female" required /> Female
+                    <input name="gender" type="radio" value="other" required /> Other <br /><br />
+                  </div>    
+                </div>
+              
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="birthdate">Birth Date</label>
+                    <input type="date" name="birthdate" class="form-control" placeholder="DD/MM/YYYY" id="birthdate">
+                  </div>    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" class="form-control" placeholder="e.g. john@your-domain.com" id="email">
+                  </div>    
+                </div>
+              
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="lname">Phone Number</label>
+                    <input type="text" name="phone" class="form-control" placeholder="+00 0000 000 0000" id="lname">
+                  </div>    
+                </div>
+              </div>
+              <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="lname">Aadhar NO.</label>
+                    <input type="text" name="aadhar" class="form-control" placeholder="2221XXXX0000" id="aadhar">
+                  </div>    
+              </div>
+              
+              
+                <div class="col-md-6">
+              
+                  <div>
+                    <label for="Resaddress">Res. Address</label>
+                    <input type="text" class="form-control" id="address" name="address" >
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+              
+                  <div>
+                    <label for="pastdiseases" name="pastdiseases">Past Disease History:</label><br /><br />
+                    <input name="pastdiseases" type="checkbox"value="Cancer"> Cancer
+                    <input name="pastdiseases" type="checkbox"value="Diabetes"> Diabetes
+                    <input name="pastdiseases" type="checkbox"value="Asthma"> Asthma
+                    <input name="pastdiseases" type="checkbox"value="Tuberculosis"> Tuberculosis
+                    <input name="pastdiseases" type="checkbox"value="High BP"> High BP
+                    <input name="pastdiseases" type="checkbox"value="Low BP"> Low BP<br /><br />
+                  </div>
+                </div>
+              </div>
+               <div class="row">
+                <div class="col-md-6">
+              
+                  <div class="form-group last mb-3">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" placeholder="Your Password" id="password">
+                  </div>
+                </div>
+
+
+                <div class="col-md-6">
+              
+                  <div>
+                    <label for="re-password">Re-type Password</label>
+                    <input type="password" class="form-control" placeholder="Your Password" id="re-password">
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="row">
+              <div><input type="submit" value="Register" name="submit" class="btn px-5 btn-primary"></div>
+              </div>
+         </div>
+       </div>
+
+       
+       </form>
+     
+    
+      
+
+   
+
+</body>
+</html>
