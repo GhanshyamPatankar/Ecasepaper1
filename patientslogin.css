@@ -60,6 +60,10 @@
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
+  background-image: url('patient.jpg');
+  background-size: 100%;
+  
+  background-image-opacity: 0.5;  
 }
 .container:before, .container:after {
   content: "";
@@ -88,10 +92,4 @@
 .container .info span .fa {
   color: #EF3B3A;
 }
-body {
 
-  background-image: url('patient.jpg');
-  background-size: 100%;
-  
-  background-image-opacity: 0.5;  
-}
